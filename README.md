@@ -55,20 +55,21 @@ This project aims to simplify disaster detection on social media platforms. The 
 
 ## Model and results
 
-**Best model:** A neural network consisting of an embedding layer, followed by a convolutional layer, a 1D global average pooling layer, a dropout layer (20% dropout rate), a dense layer with 16 neurons, another dropout layer (40% dropout rate), and a final output neuron with a sigmoid activation function.
-**Metrics:** On the test set, the model achieved an accuracy of 0.80 and an F1-score of 0.76.
+- **Best model:** A neural network consisting of an embedding layer, followed by a convolutional layer, a 1D global average pooling layer, a dropout layer (20% dropout rate), a dense layer with 16 neurons, another dropout layer (40% dropout rate), and a final output neuron with a sigmoid activation function.
+
+- **Metrics:** On the test set, the model achieved an accuracy of 0.80 and an F1-score of 0.76.
 
 ---
 
 ## Description of the files
 
-**Version_finale_projet1_Matthieu_Marechal.ipynb:** code
+- **Version_finale_projet1_Matthieu_Marechal.ipynb:** code
 
-**train.csv:** labeled database which contains 7613 tweets. The column "target" is equal to 1 if the tweet is relative to a disaster, else 0 and has 43% of positive values. The column "text" contains the tweet, "keyword" contains one or two words related to the tweet (less than 1% of missing values) and "location" contains two many missing values.
+- **train.csv:** labeled database which contains 7613 tweets. The column "target" is equal to 1 if the tweet is relative to a disaster, else 0 and has 43% of positive values. The column "text" contains the tweet, "keyword" contains one or two words related to the tweet (less than 1% of missing values) and "location" contains two many missing values.
 
-**test.csv:** unlabeled database with same features that train.csv.
+- **test.csv:** unlabeled database with same features that train.csv.
 
-**sample_submission.csv:** prediction on test.csv.
+- **sample_submission.csv:** prediction on test.csv.
 
 ---
 
