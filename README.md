@@ -4,7 +4,7 @@
 <div align="center">
 
 
-# PROJECT4-CERTIFICATION-DETECT-DISASTER
+# PROJECT4-CERTIFICATION-DETECT-DISASTER-FROM-TWEETS
 
 <em>Detect Disasters Fast, Save Lives Instantly</em>
 
